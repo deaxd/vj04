@@ -58,12 +58,13 @@
             this.groupBoxUplaceni.Controls.Add(this.txtUplaceniBroj6);
             this.groupBoxUplaceni.Controls.Add(this.txtUplaceniBroj5);
             this.groupBoxUplaceni.Controls.Add(this.txtUplaceniBroj4);
+            this.groupBoxUplaceni.Controls.Add(this.btnUplati);
             this.groupBoxUplaceni.Controls.Add(this.txtUplaceniBroj3);
             this.groupBoxUplaceni.Controls.Add(this.txtUplaceniBroj2);
             this.groupBoxUplaceni.Controls.Add(this.txtUplaceniBroj1);
             this.groupBoxUplaceni.Location = new System.Drawing.Point(15, 24);
             this.groupBoxUplaceni.Name = "groupBoxUplaceni";
-            this.groupBoxUplaceni.Size = new System.Drawing.Size(334, 49);
+            this.groupBoxUplaceni.Size = new System.Drawing.Size(334, 80);
             this.groupBoxUplaceni.TabIndex = 0;
             this.groupBoxUplaceni.TabStop = false;
             this.groupBoxUplaceni.Text = "Uplacena kombinacija";
@@ -119,7 +120,7 @@
             // 
             // btnUplati
             // 
-            this.btnUplati.Location = new System.Drawing.Point(274, 79);
+            this.btnUplati.Location = new System.Drawing.Point(248, 49);
             this.btnUplati.Name = "btnUplati";
             this.btnUplati.Size = new System.Drawing.Size(75, 23);
             this.btnUplati.TabIndex = 1;
@@ -130,6 +131,7 @@
             // 
             this.groupBoxDobitni.Controls.Add(this.txtDobitniBroj7);
             this.groupBoxDobitni.Controls.Add(this.txtDobitniBroj6);
+            this.groupBoxDobitni.Controls.Add(this.btnOdigraj);
             this.groupBoxDobitni.Controls.Add(this.txtDobitniBroj5);
             this.groupBoxDobitni.Controls.Add(this.txtDobitniBroj4);
             this.groupBoxDobitni.Controls.Add(this.txtDobitniBroj3);
@@ -137,7 +139,7 @@
             this.groupBoxDobitni.Controls.Add(this.txtDobitniBroj1);
             this.groupBoxDobitni.Location = new System.Drawing.Point(19, 122);
             this.groupBoxDobitni.Name = "groupBoxDobitni";
-            this.groupBoxDobitni.Size = new System.Drawing.Size(334, 49);
+            this.groupBoxDobitni.Size = new System.Drawing.Size(334, 81);
             this.groupBoxDobitni.TabIndex = 3;
             this.groupBoxDobitni.TabStop = false;
             this.groupBoxDobitni.Text = "Dobitna kombinacija";
@@ -200,7 +202,7 @@
             // 
             // btnOdigraj
             // 
-            this.btnOdigraj.Location = new System.Drawing.Point(274, 190);
+            this.btnOdigraj.Location = new System.Drawing.Point(244, 51);
             this.btnOdigraj.Name = "btnOdigraj";
             this.btnOdigraj.Size = new System.Drawing.Size(75, 23);
             this.btnOdigraj.TabIndex = 4;
@@ -234,9 +236,7 @@
             this.ClientSize = new System.Drawing.Size(372, 293);
             this.Controls.Add(this.lblBrojPogodaka);
             this.Controls.Add(this.lblNatip);
-            this.Controls.Add(this.btnOdigraj);
             this.Controls.Add(this.groupBoxDobitni);
-            this.Controls.Add(this.btnUplati);
             this.Controls.Add(this.groupBoxUplaceni);
             this.Name = "FrmLoto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
